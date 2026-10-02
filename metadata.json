@@ -1,0 +1,6 @@
+{
+  "name": "World AI Voice Studio",
+  "description": "Multilingual AI Voice Studio powered by Neural TTS and Gemini. Generate copyright-free voiceovers in Urdu, English, Hindi, Arabic, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

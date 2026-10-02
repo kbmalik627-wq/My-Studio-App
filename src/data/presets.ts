@@ -1,0 +1,60 @@
+import { PresetScript } from '../types';
+
+export const PRESET_SCRIPTS: PresetScript[] = [
+  {
+    id: 'urdu-tiktok-facts',
+    title: '🇵🇰 حیرت انگیز حقائق (TikTok Fact)',
+    category: 'TikTok Facts',
+    language: 'Urdu',
+    voiceId: 'ur-PK-AsadNeural',
+    text: 'کیا آپ جانتے ہیں کہ دنیا کا سب سے اونچا پہاڑ ماؤنٹ ایورسٹ ہر سال کچھ سینٹی میٹر اونچا ہو رہا ہے؟ سائنسدانوں کے مطابق زمین کی پلیٹیں مسلسل حرکت میں ہیں، جس کی وجہ سے یہ پہاڑ آج بھی بلندی کی طرف گامزن ہے۔ مزید دلچسپ معلومات کے لیے فالو کرنا مت بھولیں!',
+  },
+  {
+    id: 'urdu-shayari',
+    title: '🇵🇰 اردو شاعری و اقوال (Shayari)',
+    category: 'Urdu Poetry',
+    language: 'Urdu',
+    voiceId: 'ur-PK-UzmaNeural',
+    text: 'ستاروں سے آگے جہاں اور بھی ہیں، ابھی عشق کے امتحان اور بھی ہیں۔ قناعت نہ کر عالمِ رنگ و بو پر، چمن اور بھی آشیان اور بھی ہیں۔ زندگی میں کبھی ہمت مت ہاریں، کیونکہ ہر اندھیری رات کے بعد ایک روشن صبح ضرور آتی ہے۔',
+  },
+  {
+    id: 'urdu-islamic',
+    title: '🇵🇰 اسلامی نصیحت (Islamic Quote)',
+    category: 'Islamic Quotes',
+    language: 'Urdu',
+    voiceId: 'ur-PK-AsadNeural',
+    text: 'حضرت علی رضی اللہ عنہ کا خوبصورت فرمان ہے: جب انسان کے گناہ بڑھ جاتے ہیں، تو اس کا رزق تنگ ہو جاتا ہے اور استغفار سے رزق میں برکت نازل ہوتی ہے۔ ہمیشہ شکر ادا کریں، اللہ شکر کرنے والوں کو زیادہ نوازتا ہے۔',
+  },
+  {
+    id: 'english-youtube-intro',
+    title: '🇺🇸 Viral YouTube Hook',
+    category: 'TikTok Facts',
+    language: 'English',
+    voiceId: 'en-US-JennyNeural',
+    text: 'Stop scrolling! Here are 3 psychological tricks that will make anyone instantly respect you. Number one: Never interrupt someone while they are speaking. Listen actively, pause for two seconds, and then reply calmly. Watch till the end for the most powerful tip!',
+  },
+  {
+    id: 'english-motivation',
+    title: '🇺🇸 Deep Motivational Speech',
+    category: 'Motivation',
+    language: 'English',
+    voiceId: 'en-US-GuyNeural',
+    text: 'The only person standing between where you are today and where you want to be tomorrow is yourself. Discipline will take you places where motivation cannot. Wake up early, stay focused, put in the silent work, and let your results speak for themselves.',
+  },
+  {
+    id: 'hindi-kahani',
+    title: '🇮🇳 हिंदी प्रेरणादायक विचार (Motivation)',
+    category: 'Storytelling',
+    language: 'Hindi',
+    voiceId: 'hi-IN-SwaraNeural',
+    text: 'सफलता कभी एक रात में नहीं मिलती, बल्कि यह हर रोज़ की गई छोटी-छोटी कोशिशों का नतीजा होती है। अगर आप आज मेहनत करने से पीछे नहीं हटते, तो आने वाला कल आपकी कामयाबी की गवाही देगा। खुद पर विश्वास रखें और आगे बढ़ते रहें!',
+  },
+  {
+    id: 'arabic-wisdom',
+    title: '🇸🇦 حكمة عربية رائعة (Wisdom)',
+    category: 'Islamic Quotes',
+    language: 'Arabic',
+    voiceId: 'ar-SA-ZariyahNeural',
+    text: 'التفاؤل هو الإيمان الذي يؤدي إلى الإنجاز، لا شيء يمكن أن يتم دون الأمل والثقة بالنفس. كن على يقين بأن الأيام القادمة ستحمل لك الخير والبركة بإذن الله.',
+  },
+];
